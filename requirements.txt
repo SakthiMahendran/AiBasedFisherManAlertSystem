@@ -1,0 +1,9 @@
+Django
+django-cors-headers
+djangorestframework
+Pillow
+python-multipart
+requests
+uvicorn
+requests-cache
+openmeteo-requests
