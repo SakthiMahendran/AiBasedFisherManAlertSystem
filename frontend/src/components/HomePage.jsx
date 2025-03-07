@@ -99,9 +99,9 @@ const HomePage = () => {
     } catch (err) {
       const errorMessage = err.response?.data?.error || err.message;
 
-      if (errorMessage.includes("bad number 4294967382 for type uint32")) {
+      if (errorMessage.includes("You selected a land area where data cannot be fetched.")) {
         setIsLandSelected(true);
-        setError("You selected a land area where data cannot be fetched.");
+        setError("The selected area is not an ocean, so data cannot be fetched.");
       } else {
         setError(errorMessage);
       }

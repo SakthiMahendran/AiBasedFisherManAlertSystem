@@ -7,3 +7,4 @@ requests
 uvicorn
 requests-cache
 openmeteo-requests
+global-land-mask
